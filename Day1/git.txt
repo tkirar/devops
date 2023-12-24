@@ -8,6 +8,9 @@ git status
 git log
 (keeps track of every commit done. Makes it easy to identify changes)
 
+git diff
+(Shows the difference in the actul saved file in repo and the local file changes)
+
 git remote add origin <URL>
 (Used to set the github location where it's going to be pushed."origin" is the nickname to be used later in push commands)
 
@@ -27,3 +30,16 @@ git commit -m ""
 
 git push -u origin master
 (here, origin is the nickname of the set remote location and master is the branch. push is simply pushing to the remote origin in master branch.)
+
+################ Removing the file from the github repo ##########################
+
+git rm -f FILENAME
+(Used to remove file from local)
+
+git commit -m "Removing the file"
+(Staging the  removal of file along with message)
+
+git push origin master
+(Pushing the changes to the remote location. This ultimately removes the file from the repo)
+ 
+
