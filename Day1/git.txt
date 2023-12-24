@@ -1,0 +1,29 @@
+## The first day of learning GIT ##
+
+Commands that i used today -
+
+git status
+(This shows the overall status of git)
+
+git log
+(keeps track of every commit done. Makes it easy to identify changes)
+
+git remote add origin <URL>
+(Used to set the github location where it's going to be pushed."origin" is the nickname to be used later in push commands)
+
+git remote set-url origin git@github.com/OWNER/REPO.git
+(This is done to set the remote url again. Here i'm setting ssh url so that i can proceed with public key authenticationprocess)
+
+git remote -v
+(This shows the remote url saved for pushing to github location)
+
+## For making passwordless "git push" generated ssh-keygen and pasted the public key id-rsa.pub on Github ssh. ##
+
+git add "file name"
+(This adds the file to be tracked)
+
+git commit -m ""
+(This puts the file in the staging area along with the message, That can be tracked via log)
+
+git push -u origin master
+(here, origin is the nickname of the set remote location and master is the branch. push is simply pushing to the remote origin in master branch.)
