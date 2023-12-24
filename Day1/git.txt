@@ -34,7 +34,7 @@ git push -u origin master
 ################ Removing the file from the github repo ##########################
 
 git rm -f FILENAME
-(Used to remove file from local)
+(Used to remove file forcefully from local)
 
 git commit -m "Removing the file"
 (Staging the  removal of file along with message)
