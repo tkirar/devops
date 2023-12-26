@@ -3,7 +3,7 @@
 Commands that i used today -
 
 git status
-(This shows the overall status of git)
+(This shows the status of changes as untracked, modified or staged.)
 
 git log
 (keeps track of every commit done. Makes it easy to identify changes)
