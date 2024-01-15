@@ -1,0 +1,5 @@
+
+########## Intro to Configuration Management #################
+
+Configuration Management: 
+A way to ease the configuration change process across multiple servers. Different tools Such as Puppet,chef and Ansible are used to automate the configuration management.
