@@ -9,5 +9,6 @@ A way to ease the configuration change process across multiple servers. Differen
 Ques. Why Ansible? When there is also Puppet or Chef.
 
      Puppet:                           |            Ansible:
-1. It has a pull mechanism.            | It has a push mechanism.
-2. Follows Master-Slave model          | Uses Agentless model.Just put name of s                                                                          ervers in inventory file and psswdless authn enabled.
+1. It has a pull mechanism.            | 1. It has a push mechanism.
+2. Follows Master-Slave model          | 2. Uses Agentless model.Just put name of s                                                                      | ervers in inventory file and psswdless authn enabled.
+3. Uses it's own puppet language.      | 3. Uses the widely known YAML format
