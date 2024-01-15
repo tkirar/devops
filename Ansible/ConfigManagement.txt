@@ -3,3 +3,11 @@
 
 Configuration Management: 
 A way to ease the configuration change process across multiple servers. Different tools Such as Puppet,chef and Ansible are used to automate the configuration management.
+
+
+
+Ques. Why Ansible? When there is also Puppet or Chef.
+
+     Puppet:                           |            Ansible:
+1. It has a pull mechanism.            | It has a push mechanism.
+2. Follows Master-Slave model          | Uses Agentless model.Just put name of s                                                                          ervers in inventory file and psswdless authn enabled.
